@@ -1,0 +1,42 @@
+@startwbs
+
+* Vaca_IA
+** Business Understanding
+*** Determinar objetivos de negocio
+**** Background
+
+**** Redactar objetivos de negocio
+***** Dudas sobre dataset
+***** Dudas sobre bcs
+***** Criterios de exito
+****** Criterios SMART
+****** Criterios subjetivos
+
+*** Situación de recursos
+**** Inventario de recursos
+***** Personas
+***** Datos
+***** Recursos de computo
+***** Recursos de software
+
+**** Riesgos y contingencia
+***** Matriz de Riesgos
+****** Identificar y evaluar riesgos 
+****** Definir plan de contingencia
+****** Definir plan de mitigación
+
+**** Terminología
+***** Definir terminología tecnica
+***** Definir terminología de negocio
+
+
+
+*** Determinar objetivos de data mining
+
+
+*** Plan de proyecto
+**** WBS del proyecto
+
+** Data Understanding
+
+@endwbs
