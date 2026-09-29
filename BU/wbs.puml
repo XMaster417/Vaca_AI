@@ -150,5 +150,48 @@
 **** Reporte de evaluación del modelo
 
 ** Evaluation
+*** Evaluar los resultados
+**** Reportar los resultados del modelo
+**** Comparar los resultados con los objetivos data mining
+**** Reportar conclusiones para futuros proyectos
+*** Revisar el proceso
+**** Revisar cada fase del proyecto de data mining
+**** Responder si fue necesario?
+**** Identificar posibles fallos y pasos inesperados
+**** Revisar los resultados con los criterios de aceptación
+*** Determinar los siguientes pasos
+**** Enlistar futuras acciones con sus pros y contras
+***** Analizar el entregable actual y su potencial
+***** Revisar los recursos restantes
+***** Recomendar alternativas
+***** Reafinar el plan
+**** Decisiones
+***** Clasificar las posibles acciones
+***** Seleccionar una y documentar la decisión
+
+** Deployment
+*** Plan de entrega
+**** Obtener los resultados de la evaluacion
+**** Definir estrategia para entregar los resultados
+*** Plan de monitoreo y mantenimiento
+**** Identificar los aspectos dinamicos del ambiente
+**** Definir como podran monitorearlo
+**** Definir criterios para saber cuando falla el modelo
+**** Definir pasos a seguir si la prediccion falla
+**** Definir si el objetivo es cambiante o fijo
+*** Reporte final
+**** Reporte final
+***** Identificar la audencia del Reporte
+***** Definir estructura
+***** Seleccionar hallazgos a incluir en el Reporte
+***** Redactarlo
+**** Presentacion final
+*** Revision del proyecto
+**** Documentar experiencia
+***** Entrevistar a los usuarios finales para saber su satisfaccion
+***** Pitfalls
+***** Reporte de experiencia por miembro del equipo
+***** Redactar pistas para identificar que tecnicas usar
+
 
 @endwbs
