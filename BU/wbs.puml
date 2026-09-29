@@ -1,42 +1,154 @@
 @startwbs
 
 * Vaca_IA
-** Business Understanding
+** Business Understanding I
 *** Determinar objetivos de negocio
 **** Background
 
 **** Redactar objetivos de negocio
 ***** Dudas sobre dataset
 ***** Dudas sobre bcs
+***** Analisis de problematica
+***** Necesidad identificada
 ***** Criterios de exito
 ****** Criterios SMART
 ****** Criterios subjetivos
 
-*** Situación de recursos
-**** Inventario de recursos
-***** Personas
-***** Datos
-***** Recursos de computo
-***** Recursos de software
+***< Situación de recursos
+****< Inventario de recursos
+*****< Personas
+*****< Datos
+*****< Recursos de hardware
+*****< Recursos de software
 
-**** Riesgos y contingencia
-***** Matriz de Riesgos
-****** Identificar y evaluar riesgos 
-****** Definir plan de contingencia
-****** Definir plan de mitigación
+****< Riesgos y contingencia
+*****< Matriz de Riesgos
+******< Identificar y evaluar riesgos 
+******< Definir plan de contingencia
+******< Definir plan de mitigación
 
-**** Terminología
-***** Definir terminología tecnica
-***** Definir terminología de negocio
+****< Terminología
+*****< Glosario
+******< Definir terminología tecnica
+******< Definir terminología de negocio
 
-
+****< Costo y beneficio
+*****< Analisis de costo y beneficio de la solución
 
 *** Determinar objetivos de data mining
-
+**** Redactar objetivos en objetivos de data mining
+**** Criterios de exito
+***** Determinar criterios objetivos
+***** Determinar criterios subjetivos
 
 *** Plan de proyecto
 **** WBS del proyecto
 
-** Data Understanding
+** Data Understanding I
+*** Reporte de recolección de datos iniciales
+**** Ubicación de los datos
+**** Obtención de los datos
+**** Problemas al obtener datos
+**** Soluciones a problemas
+
+*** Reporte de descripción los datos
+**** Identificar formato y tipo de datos
+**** Identificar características del dataset
+**** Evaluar si los datos satisfacen los requerimientos
+
+*** Reporte de exploración los datos
+**** Visualizar y consultar los datos
+**** Visualizar patrones
+**** Visualizar distribuciones
+**** Aplicar transformaciones
+**** Identificar hipotesis iniciales
+
+*** Reporte de la calidad de datos
+**** Analizar la calidad de los datos
+**** Identificar datos atipicos
+
+** Business Understanding II
+*** Realizar correcciones en los entregables
+**** Determinar objetivos de negocio
+**** Situación de Recursos
+**** Objetivos de data mining
+**** Plan de proyecto
+
+** Data Understanding II
+*** Realizar correcciones en los entregables
+**** Recolectar datos iniciales
+**** Describir los datos
+**** Explorar los datos
+**** Verificar la calidad
+
+** Data preparation I
+*** Dataset
+**** Reporte de selección de datos
+***** Datos incluidos
+***** Datos excluidos
+
+**** Reporte de limpieza datos
+***** Acciones de limpieza
+***** Decisiones de limpieza
+
+**** Reporte de construcción de datos
+***** Construir atributos
+***** Realizar adaptaciones de atributos
+****** Integrar datos
+***** Dar formato a los datos
+
+** Modeling I
+*** Reporte de selección de modelo
+**** Tecnica seleccionada de modelo
+**** Supuestos del modelo
+
+*** Reporte de diseño de pruebas
+**** Separar conjuntos del dataset
+**** Pruebas por objetivo de data mining
+
+*** Reporte de construcción del modelo
+**** Lista de hiperparametros usados
+**** Crear el modelo seleccionado
+**** Descripción del modelo
+***** Evaluación de la precisión del modelo
+***** Interpretacion de resultados
+***** Dificultades identificadas
+
+*** Reporte de evaluación del modelo
+**** Evaluar el modelo
+***** Resultados de las pruebas
+***** Comparación entre modelos
+***** Impacto en objetivos
+**** Ajustes de hiperparametros
+
+** Data preparation II 
+*** Realizar correcciones en los entregables
+**** Dataset
+***** Reporte de selección de datos
+***** Reporte de limpieza de datos
+***** Reporte de construcción de datos
+
+** Modeling II
+*** Realizar correcciones en los entregables
+**** Reporte de selección de modelo
+**** Reporte de diseño de pruebas
+**** Reporte de construcción del modelo
+**** Reporte de evaluación del modelo
+
+** Data preparation III
+*** Realizar correcciones en los entregables
+**** Dataset
+***** Reporte de selección de datos
+***** Reporte de limpieza de datos
+***** Reporte de construcción de datos
+
+** Modeling III
+*** Realizar correcciones en los entregables
+**** Reporte de selección de modelo
+**** Reporte de diseño de pruebas
+**** Reporte de construcción del modelo
+**** Reporte de evaluación del modelo
+
+** Evaluation
 
 @endwbs
