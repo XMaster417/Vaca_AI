@@ -7,6 +7,7 @@ carpeta = raiz / "Data" / "vacas"
 clean = []
 total_duplicados = 0
 total_nulos = 0
+total_archivos = len(list(carpeta.glob("*.csv")))
 
 for archivo in carpeta.glob("*.csv"):
     # Carga de datos
@@ -31,13 +32,10 @@ for archivo in carpeta.glob("*.csv"):
 
 print("============================= DF completo =============================")
 df_salida = pd.concat(clean, ignore_index=True)
-print(df_salida.shape)
+print("Total de archivos procesados: ", total_archivos)
 print("Observaciones duplicadas: ", total_duplicados)
 print("Valores nulos: ", total_nulos)
 
-salida = int(input(("Buscas guardar el data set nuevo? 1: Si 2: No\n")))
-
-if salida == 1:
-    print("... guardando ...")
-    df_salida.to_csv(raiz / "Data" / "dataset_vacas.csv", index=False)
-    print("Guardado!")
+print("... guardando ...")
+df_salida.to_csv(raiz / "Data" / "dataset_vacas.csv", index=False)
+print("Guardado!")
