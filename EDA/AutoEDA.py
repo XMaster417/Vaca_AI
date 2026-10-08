@@ -4,7 +4,8 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-carpeta = Path("../Data/vacas")
+raiz = Path(__file__).resolve().parent.parent
+carpeta = raiz / "Data" / "vacas"
 
 clean = []
 
@@ -53,5 +54,5 @@ salida = int(input(("Buscas guardar el data set nuevo? 1: Si 2: No\n")))
 
 if salida == 1:
     print("... guardando ...")
-    df_salida.to_csv("../Data/dataset_vacas.csv", index=False)
+    df_salida.to_csv(raiz / "Data" / "dataset_vacas.csv", index=False)
     print("Guardado!")
