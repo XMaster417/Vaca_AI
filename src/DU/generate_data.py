@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-raiz = Path(__file__).resolve().parent.parent
+raiz = Path(__file__).resolve().parent.parent.parent
 carpeta = raiz / "Data" / "vacas"
 clean = []
 total_duplicados = 0
